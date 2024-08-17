@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judicial Chatbot</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #chat-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            height: 400px;
+            overflow-y: scroll;
+        }
+        #user-input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        #send-button {
+            display: block;
+            margin-top: 10px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Judicial Chatbot</h1>
+    <div id="chat-container"></div>
+    <input type="text" id="user-input" placeholder="Type your message...">
+    <button id="send-button">Send</button>
+
+    <script>
+        $(document).ready(function() {
+            function addMessage(sender, message) {
+                $('#chat-container').append(`<p><strong>${sender}:</strong> ${message}</p>`);
+                $('#chat-container').scrollTop($('#chat-container')[0].scrollHeight);
+            }
+
+            $('#send-button').click(function() {
+                var userInput = $('#user-input').val();
+                if (userInput.trim() !== '') {
+                    addMessage('You', userInput);
+                    $.ajax({
+                        url: '{% url "get_response" %}',
+                        method: 'POST',
+                        data: {
+                            'user_input': userInput,
+                            'csrfmiddlewaretoken': '{{ csrf_token }}'
+                        },
+                        success: function(data) {
+                            addMessage('Chatbot', data.response);
+                        }
+                    });
+                    $('#user-input').val('');
+                }
+            });
+
+            $('#user-input').keypress(function(e) {
+                if (e.which == 13) {
+                    $('#send-button').click();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
