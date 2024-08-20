@@ -2,7 +2,7 @@ import requests
 
 class JudicialChatbot:
     def __init__(self):
-        self.api_url = "https://ceec-34-16-179-41.ngrok-free.app/predict"
+        self.api_url = "https://e0be-34-16-219-48.ngrok-free.app/predict"
 
     def generate_response(self, input_text):
         response = requests.post(self.api_url, json={"instruction": input_text})
