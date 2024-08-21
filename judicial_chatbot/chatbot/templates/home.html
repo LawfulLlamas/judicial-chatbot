@@ -7,132 +7,186 @@
     <style>
         /* General Styles */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
+            background: #f0e9d6; /* Elegant light beige background */
+            color: #333;
             box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+            position: relative; /* For positioning the chat window relative to the body */
         }
 
         /* Chat Toggle Button */
         #chat-toggle {
             position: fixed;
-            bottom: 20px;
-            right: 20px;
-            width: 60px;
-            height: 60px;
-            background-color: #3d5a80;
+            top: 20px;
+            left: 20px;
+            width: 80px; /* Increased size of the toggle button */
+            height: 80px; /* Increased size of the toggle button */
             border-radius: 50%;
             cursor: pointer;
             display: flex;
             justify-content: center;
             align-items: center;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
+            background: linear-gradient(135deg, #FF9933 33.33%, #FFFFFF 33.33% 66.66%, #138808 66.66%); /* Saffron, white, green gradient */
+            background-size: 200% 200%;
+            background-position: 0 0;
+            animation: gradientShift 3s ease infinite;
+            overflow: hidden; /* Ensure image doesn't overflow */
+            z-index: 10; /* Ensure the icon is on top */
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0 0; }
+            100% { background-position: 100% 100%; }
         }
 
         #chat-toggle img {
-            width: 35px;
-            height: 35px;
+            width: 60px; /* Icon size */
+            height: 60px;
+            object-fit: cover;
+        }
+
+        #chat-toggle:hover {
+            transform: scale(1.1);
         }
 
         /* Chat Window */
         #chat-window {
             position: fixed;
-            bottom: 90px;
-            right: 20px;
-            width: 300px;
-            max-height: 400px;
-            background-color: #e0fbfc;
-            border: 1px solid #3d5a80;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            top: 50%; /* Center vertically */
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%) scale(0.1); /* Center and scale down */
+            width: 200px; /* Initial small size */
+            height: 200px; /* Initial small size */
+            background: #ffffff;
+            border: 1px solid #FFD700; /* Golden border */
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
             display: flex;
             flex-direction: column;
             overflow: hidden;
             visibility: hidden;
+            opacity: 0;
+            transition: visibility 0.3s, opacity 0.3s, transform 0.3s;
+            z-index: 5; /* Ensure the chat window is behind the toggle button */
         }
 
         #chat-window.visible {
             visibility: visible;
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1); /* Scale to normal size */
+            width: 350px; /* Expanded width */
+            height: 500px; /* Expanded height */
         }
 
         #chat-header {
-            background-color: #3d5a80;
-            color: #e0fbfc;
-            padding: 10px;
+            background: #3a4e6c;
+            color: #FFD700; /* Golden text */
+            padding: 12px;
             text-align: center;
-            font-weight: bold;
+            font-weight: 600;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            border-bottom: 1px solid #FFD700; /* Golden border */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         #close-chat {
             background: none;
             border: none;
-            color: #e0fbfc;
-            font-size: 18px;
+            color: #FFD700; /* Golden color */
+            font-size: 20px;
             cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        #close-chat:hover {
+            color: #ff6f61; /* Slightly different hover color */
         }
 
         #chat-messages {
             flex: 1;
-            padding: 10px;
+            padding: 15px;
             overflow-y: auto;
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 12px;
         }
 
         #chat-messages .message {
-            max-width: 80%;
-            padding: 8px;
-            border-radius: 8px;
-            line-height: 1.4;
+            max-width: 85%;
+            padding: 10px;
+            border-radius: 15px;
+            line-height: 1.6;
+            font-size: 14px;
+            word-wrap: break-word;
+            background: #FFD700; /* Golden background for messages */
+            color: #000000; /* Black text color */
         }
 
         .message.user {
             align-self: flex-end;
-            background-color: #98c1d9;
-            color: #293241;
+            background: #f1c40f; /* Slightly lighter golden color for user messages */
         }
 
         .message.bot {
             align-self: flex-start;
-            background-color: #ee6c4d;
-            color: #e0fbfc;
+            background: #FFD700; /* Golden background for bot messages */
         }
 
         #chat-input {
             display: flex;
-            padding: 10px;
-            background-color: #e0fbfc;
+            padding: 12px;
+            background: #f7f7f7;
+            border-top: 1px solid #e0e0e0;
         }
 
         #chat-input input {
             flex: 1;
-            padding: 8px;
-            border: 1px solid #3d5a80;
-            border-radius: 8px;
+            padding: 10px;
+            border: 1px solid #FFD700; /* Golden border */
+            border-radius: 20px;
             outline: none;
             font-size: 14px;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        #chat-input input:focus {
+            border-color: #3a4e6c;
+            box-shadow: 0 0 5px rgba(58, 78, 108, 0.3);
         }
 
         #chat-input button {
-            margin-left: 8px;
-            padding: 8px 12px;
-            background-color: #3d5a80;
-            color: #e0fbfc;
+            margin-left: 10px;
+            padding: 10px 15px;
+            background: #3a4e6c;
+            color: #ffffff;
             border: none;
-            border-radius: 8px;
+            border-radius: 20px;
             cursor: pointer;
             font-size: 14px;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        #chat-input button:hover {
+            background: #2d3a4b;
+            transform: scale(1.05);
         }
     </style>
 </head>
 <body>
     <!-- Chat Toggle Button -->
     <div id="chat-toggle" onclick="toggleChat()">
-        <img src="chat-icon.png" alt="Chat Icon">
+        <img src="https://mail.google.com/mail/u/0?ui=2&ik=e0432f714f&attid=0.1&permmsgid=msg-f:1807977656946903380&th=19173a199429c954&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-W6PdM3nowTCpEThWRBiJCQpWAFeBYuqsMUc6Yj_2tcPqbM9PAzAvAx0n0zJznCdf9zg1uccmnTfENljOiyUW4RL68Mswv5-G7BiiSoGLzArlA343hcD9iEAE&disp=emb&realattid=ii_m03h5mg30" alt="Chat Icon">
     </div>
 
     <!-- Chat Window -->
