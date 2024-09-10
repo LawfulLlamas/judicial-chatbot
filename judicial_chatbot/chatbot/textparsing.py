@@ -29,8 +29,11 @@ def parse_data(file_path):
 dataset = parse_data('chatbot/train.txt')
 
 # Print the first few examples to verify
-for example in dataset[:3]:
-    print(f"Webpage: {example.webpage}")
-    print(f"Link: {example.link}")
-    print(f"Text: {example.text}...")  # Print first 100 characters of text
-    print("\n")
+def test():
+    for example in dataset[:3]:
+        print(f"Webpage: {example.webpage}")
+        print(f"Link: {example.link}")
+        print(f"Text: {example.text}...")  # Print first 100 characters of text
+        print("\n")
+
+#test()

@@ -3,16 +3,36 @@ from rank_bm25 import BM25Okapi
 from dspy.teleprompt import BootstrapFewShot
 from dspy.evaluate import Evaluate
 from textparsing import parse_data
+from unsloth import FastLanguageModel
+import torch
 
 class ChatbotSignature(dspy.Signature):
     """Answer questions related to the Department of Justice website."""
     question = dspy.InputField(desc="User's question about the website")
     answer = dspy.OutputField(desc="Answer to the user's question")
 
-# Use a local LLM. Adjust the model name as needed.
-llama = dspy.LLM(model='llama-13b-chat')
+# Define a custom LLM class for Unsloth's Fast Llama
+class UnslothLlama(dspy.LM):
+    def __init__(self, model_name='unsloth/Meta-Llama-3.1-8B-bnb-4bit'):
+        super().__init__()
+        self.model, self.tokenizer = FastLanguageModel.from_pretrained(
+            model_name,
+            max_seq_len=2048,
+            dtype=None,
+            load_in_4bit=True,
+        )
 
-# Create a custom BM25 retriever for our local dataset
+    def basic_request(self, prompt, **kwargs):
+        inputs = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
+        with torch.no_grad():
+            outputs = self.model.generate(**inputs, max_new_tokens=100, **kwargs)
+        response = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
+        return response
+
+# Use the Unsloth Fast Llama
+llama = UnslothLlama()
+
+# The rest of your code remains the same
 class LocalRetriever(dspy.Module):
     def __init__(self, dataset):
         super().__init__()
@@ -32,7 +52,7 @@ class LocalRetriever(dspy.Module):
         retrieved_docs = [self.dataset[i].text for i in top_n]
         return dspy.Prediction(passages=retrieved_docs)
 
-# Configure DSPy to use our local LLM and retriever
+# Configure DSPy to use our Unsloth LLM and local retriever
 dataset = parse_data('chatbot/train.txt')
 local_retriever = LocalRetriever(dataset)
 dspy.settings.configure(lm=llama, rm=local_retriever)
@@ -50,8 +70,6 @@ class DOJChatbot(dspy.Module):
 
 # Define a simple evaluation metric
 def validate_answer(example, pred):
-    # For simplicity, we're just checking if the answer is not empty
-    # In a real scenario, you'd want a more sophisticated validation
     return len(pred.answer.strip()) > 0
 
 # Initialize the evaluator

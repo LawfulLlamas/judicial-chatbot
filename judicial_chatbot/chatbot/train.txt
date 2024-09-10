@@ -1,5 +1,5 @@
 [Webpage: About Department (https://doj.gov.in/)]
-As per the Allocation of Business (Rules), 1961, Department of Justice is a part of Ministry of Law & Justice, Government of India. It is one of the oldest Ministries of the Government of India. Till 31.12.2009, the Department of Justice was part of the Ministry of Home Affairs and Union Home Secretary had been the Secretary of the Department of Justice. Keeping in view the increasing workload and formulating many policies and programmes on Judicial Reforms in the country, a separate Department namely Department of Justice was carved out from MHA and placed under the charge of Secretary to Government of India and it started working as such from 1st January, 2010 under the Ministry of Law & Justice. The Department is housed in the Jaisalmer House, 26, Man Singh Road, nNew Delhi. The Organizational setup of the Department includes 04 Joint Secretaries, 08 Directors/ Deputy Secretaries and 09 Under Secretaries. The functions of the Department of Justice include the appointment, resignation and removal of the Chief Justice of India, Judges of the Supreme Court of India, Chief Justices and Judges of the High Courts and their service matters. In addition, the Department implements important schemes for Development of Infrastructure Facilities for Judiciary, setting up of Special Courts for speedy trial and disposal of cases of sensitive nature (Fast Track Special Court for cases of rape and POCSO Act), E-court Project on computerization of various courts across the country, legal aid to poor and access to justice, financial assistance to National Judicial Academy for providing training to the Judicial Officers of the country. The functions of Department of Justice are given in Allocation of Business (Rules), 1961
+As per the Allocation of Business (Rules), 1961, Department of Justice is a part of Ministry of Law & Justice, Government of India. It is one of the oldest Ministries of the Government of India. Till 31.12.2009, the Department of Justice was part of the Ministry of Home Affairs and Union Home Secretary had been the Secretary of the Department of Justice. Keeping in view the increasing workload and formulating many policies and programmes on Judicial Reforms in the country, a separate Department namely Department of Justice was carved out from MHA and placed under the charge of Secretary to Government of India and it started working as such from 1st January, 2010 under the Ministry of Law & Justice. The Department is housed in the Jaisalmer House, 26, Man Singh Road, New Delhi. The Organizational setup of the Department includes 04 Joint Secretaries, 08 Directors/ Deputy Secretaries and 09 Under Secretaries. The functions of the Department of Justice include the appointment, resignation and removal of the Chief Justice of India, Judges of the Supreme Court of India, Chief Justices and Judges of the High Courts and their service matters. In addition, the Department implements important schemes for Development of Infrastructure Facilities for Judiciary, setting up of Special Courts for speedy trial and disposal of cases of sensitive nature (Fast Track Special Court for cases of rape and POCSO Act), E-court Project on computerization of various courts across the country, legal aid to poor and access to justice, financial assistance to National Judicial Academy for providing training to the Judicial Officers of the country. The functions of Department of Justice are given in Allocation of Business (Rules), 1961
 
 History
 Last updated: 13-01-2023
@@ -13,7 +13,7 @@ Facilitating administration of Justice that ensures easy access and timely deliv
 MISSION:
 Ensuring adequacy of courts and judges,  including servicing of appointment of  Judges to the higher judiciary, modernization of courts and procedures, policies for judicial reforms, and legal aid to the poor for improved justice delivery.
 
-[Webpage: First National Judicial Pay Commission (https://doj.gov.in/first-national-judicial-pay-commission/#)]
+[Webpage:First National Judicial Pay Commission (https://doj.gov.in/first-national-judicial-pay-commission/#)]
 In pursuance of the directions of the Supreme Court, the First National Judicial Pay Commission (FNJPC) was set up in March, 1996 under the Chairmanship of Justice K. J. Shetty to examine the service conditions and salary structure of the Judicial Officers in the country.
 The necessary funds for the functioning of the Commission were arranged by Department of Justice.
 The Commission submitted its report to the Government and Supreme Court of India on 11.11.1999.
@@ -81,3 +81,184 @@ Minutes of Advisory Council Meetings
 
 [Webpage: Scheme for Action Research and Studies on Judicial Reforms (https://doj.gov.in/scheme-for-action-research-and-studies-on-judicial-reforms-5/)]
 A Plan Scheme for Action Research and Studies on Judicial Reforms is being implemented by the National Mission for Justice Delivery and Legal Reforms since 2013. Under the Scheme, financial assistance is being extended for undertaking action research / evaluation / monitoring studies, organizing seminars / conferences / workshops, capacity building for research and monitoring activities, publication of report/material, promotion of innovative programmes / activities in the areas of Justice Delivery, Legal Research and Judicial Reforms. From the financial year 2021-22 onwards, the Scheme was incorporated under the “non-scheme” component of Department of Justice.
+
+Reputed institutions working in the field of justice delivery, legal education and research and judicial reforms may apply as per the Scheme guidelines.
+
+[Webpage: National Legal Services Authority: (https://doj.gov.in/access-to-justice-for-the-marginalized/)]
+Article 39A of the Constitution of India provides for free legal aid to the poor and weaker sections of the society and ensures justice for all. Articles 14 and 22(1) of the Constitution also make it obligatory for the State to ensure equality before law and a legal system which promotes justice on the basis of equal opportunity to all. In the year
+
+1987, the Legal Services Authorities Act was enacted by the Parliament which came into force on 9th November, 1995 to establish a nationwide uniform network for providing free and competent legal services to the weaker sections of the society on the basis of equal opportunity. The National Legal Services Authority (NALSA) has been constituted under the Legal Services Authorities Act, 1987 to monitor and evaluate implementation of legal aid programmes and to lay down policies and principles for making legal services available under the Act.
+
+In every State, a State Legal Services Authority and in every High Court, a High Court Legal Services Committee have been constituted. District Legal Services Authorities, Taluk Legal Services Committees have been constituted in the Districts and most of the Taluks to give effect to the policies and directions of the NALSA and to provide free legal services to the people and conduct Lok Adalats in the State.
+
+Supreme Court Legal Services Committee has been constituted to administer and implement the legal services programme insofar as it relates to the Supreme Court of India.
+
+Functioning of NALSA
+NALSA lays down policies, principles, guidelines and frames effective and economical schemes for the State Legal Services Authorities to implement the Legal Services Programmes throughout the country.
+
+Primarily, the State Legal Services Authorities, District Legal Services Authorities, Taluk Legal Services Committees, etc. have been asked to discharge the following main functions on regular basis:
+
+To Provide Free and Competent Legal Services to the eligible persons;
+To organize Lok Adalats for amicable settlement of disputes and
+To organize legal awareness camps in the rural areas.
+i. FREE LEGAL SERVICES
+The Free Legal Services include:-
+
+Payment of court fee, process fees and all other charges payable or incurred in connection with any legal proceedings;
+Providing service of lawyers in legal proceedings;
+Obtaining and supply of certified copies of orders and other documents in legal proceedings.
+Preparation of appeal, paper book including printing and translation of documents in legal proceedings.
+Persons eligible for getting free legal services includes:-
+Women and children;
+Members of SC/ST
+Industrial workmen
+Victims of mass disaster, violence, flood, drought, earthquake, industrial disaster.
+Disabled persons. vi) Persons in custody
+Persons whose annual income does not exceed Rs. 1 lakh (in the Supreme Court Legal Services Committee the limit is Rs. 5,00,000/-).
+Victims of Trafficking in Human beings or begar
+ii. LOK ADALATS
+Lok Adalat is one of the Alternative Disputes Resolution Mechanisms. It is a forum where the disputes/cases pending in the court of law or at pre-litigation stage are settled/compromised amicably. The Lok Adalat has been given statutory status under the Legal Services Authorities Act, 1987. Under this Act, an award made by a Lok Adalat is deemed to be a decree of a civil court and is final and binding on all parties and no appeal lies against thereto before any court.
+
+Lok Adalats are being organized by the Legal Services Authorities/Committees for settlement of cases pending before courts u/s 19 of the Legal Services Authorities Act, 1987 and also for matters at pre-Litigative stage, under the guidance of NALSA.
+Chapter VI-A has been inserted in the Legal Services Authorities Act, 1987 in the year 2002, with a view to provide compulsory pre-Litigative mechanism for conciliation and settlement of disputes relating to ‘Public Utility Services’.
+Further in view of Covid, E-Lok Adalat has been conceptualized which significantly improved access to justice for people who were otherwise unable to participate in the Lok Adalats.
+iii. LEGAL AWARENESS PROGRAMMES
+As a part of the preventive and strategic legal aid, NALSA through the State Legal Services Authorities, conduct legal literacy programmes. In some States, Legal Literacy Programmes are conducted every year in schools and colleges and also for empowerment of women in a routine manner, besides the rural legal literacy camps.
+
+
+
+
+
+[Webpage: Hamara Samvidhan Hamara Samman (https://doj.gov.in/about-hamara-samvidhan-hamara-samman/)]
+
+To commemorate the momentous occasion of India’s 75th year as a Republic, the Department of Justice proudly inaugurates the pan-India year-long campaign, ‘Hamara Samvidhan Hamara Samman’. This initiative is more than just a commemoration; it’s a resounding call to action for every citizen to actively contribute to shaping the vision of Viksit Bharat by 2047.
+
+At its core, the campaign serves as a dynamic platform aimed at empowering citizens with essential knowledge about their legal rights and responsibilities. By fostering a culture of legal compliance and reinforcing the rule of law, we aim to strengthen the fabric of our nation.
+
+Participating in this campaign signifies a commitment to transcend individual interests and unite in the collective endeavor to build a nation founded on the principles of progress, inclusivity, and sustainable development.
+
+Throughout the campaign, a plethora of activities and events will be organized both online and offline to raise awareness about rights, duties, and entitlements. These endeavors will be guided by three overarching sub-themes:
+
+Sabko Nyay – Har Ghar Nyay: Ensuring justice for all, irrespective of socio-economic backgrounds.
+Nav Bharat Nav Sankalp: Pledging for a new India, fueled by innovative ideas and renewed commitment.
+Vidhi Jagriti Abhiyaan: Promoting legal literacy and awareness through grassroots initiatives and educational endeavors.
+Together, let us embark on this transformative journey towards a brighter, more just future for our beloved nation.
+
+
+
+[Webpage: Sabko Nyay Har Ghar Nyay  (https://doj.gov.in/overview/#)
+
+About Programme:
+
+The Panch Pran Pledge is a solemn commitment inspired by the vision articulated by Hon’ble Prime Minister of India from the Red Fort. It encapsulates the aspirations for a developed India, the eradication of a servile mentality, pride in our traditions, dedication to unity and integrity, and the awakening of a sense of duty in every citizen.
+
+Timeline: Entire Year (January 2024 – January 2025)
+
+Participants: All Citizens
+
+Methodology: All Citizens can visit the activity page in MyGov Platform and recite the pledge to generate e-certificates. In addition, each VLE, spanning 2.5 Lakh Gram Panchayats, will recite the Panch Pran Pledge. They will then encourage a minimum of 200 citizens visiting the CSC to read the Pledge before availing any services. The Pledge will be available in digital format and may be posted within CSC premises. QR codes linking to the MyGov Platform campaign page will be displayed in CSCs and shared on social media and WhatsApp groups of CSC functionaries. Brochures and pamphlets will also be distributed.
+
+Expected Outcome: The Panch Pran Pledge will permeate to the village level, raising awareness among citizens across 2.5 Lakh Gram Panchayats. It will serve as a medium to involve individuals in the nation-building process, rekindling the spirit of patriotism and fostering a sense of responsibility among citizens. Additionally, the Pledge will be translated into 22 Scheduled Languages through CSCs, ensuring broader accessibility and inclusivity.
+
+About Programme:
+
+Nyay Sahayaks are community-based messengers tasked with generating door-to-door awareness on legal services and solutions offered by the Department of Justice (DoJ) in Aspirational Blocks & Districts. Currently, 460 Nyaya Sahayaks, engaged by CSC, are spearheading this initiative.
+
+Timeline: Entire Year (January 2024 – January 2025), with a pilot phase from January 2024 to March 2025.
+
+Participants: Citizens of Aspirational Districts & Blocks as identified by NITI Aayog.
+
+Methodology: Nyay Sahayaks will be assigned unique IDs for referral purposes, utilized during citizen transactions within the performance dashboard. Incentives for Nyaya Sahayaks are performance-linked. The aim is to introduce a technological enabler with human support at the block level, acting as a bridge for doorstep delivery of legal services and encouraging local participation.
+
+Expected Outcome:
+
+The introduction of Nyay Sahayaks aims to facilitate door-to-door delivery of legal services, comprising:
+Assisting in case registration for pre-litigation advice or representation, targeting 30 cases, per day.
+Conducting Legal Awareness and Literacy “Vidhi Baithak” sessions at the village or block level, with guidance from Block Level Officers. Five Baithaks will be conducted monthly at various locations, engaging cross-sector groups such as School Management Committees, Panchayat Samiti/Gram Sabha, Anganwadi Workers, Self-Help Groups, and Children/Observers.
+
+
+About Programme:
+
+Nyay Seva Mela is a State-level workshop cum Mela organized across 36 States/UTs. The components of the Mela include:
+
+Participation of DLSA/SLSA/State Law Departments/Legal Aid Clinics of Law Schools.
+
+Release of State booklets highlighting dedicated State schemes, activities of DoJ, and beneficiary case stories under the Tele Law program.
+
+Felicitation of grassroots functionaries.
+
+Visits from VIPs/VVIPs.
+
+Timeline: Entire Year (January 2024 – January 2025)
+
+Participants: Citizens of India.
+
+Expected Outcome: The Nyaya Seva Mela aims to deliver citizen-centric services and raise awareness about the welfare schemes and programs of the Department of Justice. It seeks to enhance citizen awareness regarding DoJ initiatives.
+
+
+
+[Webpage: Designing Innovative Solutions for Holistic Access to Justice (https://doj.gov.in/designing-innovative-solutions-for-holistic-access-to-justice-disha/)]
+
+Department of Justice has introduced a Scheme on Access to Justice titled “Designing Innovative Solutions for Holistic Access to Justice” for a period of five- years (2021-2026). It aims to secure “Justice” to the people of India as enunciated in the Preamble and under Articles 39A, 14 and 21 of the Constitution of India. It widens the outreach of its Tele-Law, Pro Bono Legal Services (Nyaya Bandhu) and Legal Literacy and Legal Awareness programmes both qualitatively and quantitatively. It further aims to create awareness and dissemination through use of technology and developing simplified Information, Education and Communication (IEC) material for the masses.
+
+Tele-Law: Reaching the Unreached-  An e-interface platform that aims to empower people through pre-litigation advice for rightfully claiming their entitlements and for timely redressal of their difficulties. It seeks to connect the poor and marginalized sections of society, through a dedicated pool of Panel Lawyers via video conferencing/telephonic facilities available at Common Service Centers (CSCs) and directly through Tele-Law Mobile App (available in Android/iOS).
+
+Nyaya Bandhu (Pro Bono Legal Services)- Nyaya Bandhu (Pro Bono Legal Services) aims to create a pan India framework for dispensation of pro bono legal services. Under it Advocates interested to volunteer their time and services register on the Nyaya Bandhu Mobile App (available in Android/iOS/UMANG platform)and provide legal assistance to the persons eligible to avail free legal aid under Section 12 of Legal Services Authorities (LSA) Act, 1987 and registered on the Nyaya Bandhu App.
+
+Legal Literacy and Legal Awareness- Pan India Legal Literacy and Legal Awareness aims to enable the vulnerable sections of society to have access to information about their legal rights, entitlements and creating better legal awareness so as to make justice delivery system citizen-centric.
+
+[Webpage: Vidhi Jagriti Abhiyan (https://doj.gov.in/vidhi-jagriti-abhiyan-overview/)]
+
+In our pursuit of an inclusive republic, the Vidhi Jagriti Abhiyaan stands as a beacon of legal literacy and awareness. Organized by the Pan India Legal Literacy and Legal Awareness Programme in collaboration with partner agencies across project States, this initiative encompasses three transformative activities:
+
+1. Gram Vidhi Chetna:   About Programme:
+
+Engage students in driving legal awareness activities within adopted villages.
+Upload photos and reports of activities in a designated Dashboard (Maximum 5 Photos & 1 HD Video with an Activity Banner featuring the Department of Justice name, Pro Bono Club Name, College Name, and adopted village name – in the activity number 2nd).
+DOJ will create Login IDs & passwords for Law Schools.
+Generate buzz (Media/social media) before, during, and after the event by participating Law Schools.
+Timeline: January 2024 to January 2025
+
+Participants: Villagers, Frontline Functionaries, Law students, and Teachers.
+
+Expected Outcome: Reach out to 50,000 plus beneficiaries.
+
+2. Vanchit Varg Sammaan Abhiyaan
+About Programme:
+IGNOU will organize online workshops/webinars covering various marginalized groups’ rights.
+Webcast the interactive sessions via Webex, YouTube, and Facebook for broader coverage.
+Circulate recordings widely.
+Timeline: January 2024 to January 2025
+Participants: Villagers, Frontline Functionaries, Students, Teachers, Village Level Entrepreneurs, and various legal aid functionaries.
+Expected Outcome: Reach out to 70,000 plus beneficiaries.
+
+3. Nari Bhagidaari
+About Programme:
+Conduct online workshops/webinars addressing gender-based issues.
+Webcast sessions via online platforms for wider dissemination.
+Widely circulate recordings.
+Timeline: February 2024 to January 2025
+
+Participants: Villagers, Frontline Functionaries, Students, Teachers, Village Level Entrepreneurs, and legal aid functionaries.
+
+Expected Outcome: Reach out to 70,000 plus beneficiaries
+
+These initiatives are dedicated to fostering legal consciousness among diverse segments of society, empowering citizens with knowledge, and championing justice within our democratic framework. Together, let’s uphold the spirit of our constitution and honor our collective commitment to justice for all.
+
+[Webpage: Samvidhan Katta (https://doj.gov.in/samvidhan-katta-about/)]
+
+About                                                                                                                                                                                                                             Samvidhan Katta: – A celebration of Indian constitution through Dialogue and Awareness. As India approaches its 75th Republic Day, the Department of Justice, Ministry of Law & Justice has launched a significant initiative “Samvidhan Katta”, a celebration of Indian constitution through Dialogue and Awareness under the banner of “Hamara Samvidhan, Hamara Samman.” This campaign, rooted in the very essence of our constitutional values, seeks to foster a deeper understanding and appreciation of the Indian Constitution among citizens. “Samvidhan Katta,” is designed to encourage dialogue and discussion about the Constitution, its principles, and its impact on the lives of the people of India.
+
+Significance:                                                                                                                                                                                       “Samvidhan Katta” is a unique platform where individuals from all walks of life—students, scholars, legal professionals, and common citizens—come together to engage in meaningful conversations about the Constitution. The term “Katta,” as used by Hon’ble Chief Justice of India- Dr. D.Y Chandrachud in the 2nd regional event held at Bikaner, Rajasthan. It is often associated with informal gatherings in Marathi language. It represents a space for open dialogue, where ideas and opinions can be freely exchanged. The objective of these sessions is to demystify the Constitution, making it accessible to everyone, and to highlight its role as a living document that protects the rights and liberties of all citizens. The Indian Constitution is not just a legal document; it is a charter of liberty and justice, enshrining the values of equality, dignity, and non-discrimination.
+
+The Department of Justice (DoJ) by this flagship event aims to push forward for the creation of Samvidhan Katta groups by providing resources, guides, and discussion materials. Whether it’s a small group of friends, a classroom, or a community center, any space can become a Samvidhan Katta.
+
+Join the movement, initiate your own Samvidhan Katta, share your stories, and contribute to embedding constitutional values deeply into our society’s fabric
+
+Cases which can be included as stories:                                                                                                                                             Indra Sawhney v. Union of India (1992): Commonly known as the Mandal Commission case, this landmark judgment upheld the reservation policy for Other Backward Classes (OBCs) in government jobs. The Supreme Court recognized that affirmative action is essential to address historical injustices faced by marginalized communities and to ensure their participation in public life, thereby reinforcing the constitutional mandate of equality.
+
+Vishaka v. State of Rajasthan (1997): This case was a watershed moment in addressing gender discrimination and harassment in the workplace. The Supreme Court laid down guidelines, known as the Vishaka Guidelines, to prevent sexual harassment at the workplace, thereby protecting the dignity and safety of women. These guidelines were eventually codified into the Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013.
+
+Navtej Singh Johar v. Union of India (2018): This landmark judgment decriminalized consensual same-sex relations, striking down Section 377 of the Indian Penal Code. The Supreme Court affirmed the constitutional right to equality, dignity, and privacy, thereby providing a significant victory for the LGBTQ+ community and challenging societal norms of discrimination.
+
+Indian Young Lawyers Association v. State of Kerala (2018): In this case, the Supreme Court ruled in favor of allowing women of all ages to enter the Sabarimala Temple, striking down a centuries-old custom that barred women of menstruating age from entering the temple. The judgment was a significant step towards gender equality and non-discrimination based on gender and biological factors.
