@@ -18,7 +18,7 @@ class UnslothLlama(dspy.LM):
         self.model, self.tokenizer = FastLanguageModel.from_pretrained(
             model_name,
             max_seq_len=2048,
-            dtype=None,
+            dtype=Nonek,
             load_in_4bit=True,
         )
 
